@@ -5,7 +5,7 @@ GitHub Pages 로 내보내는 정적 페이지. 앱과 App Store·Play 가 읽�
 | 폴더 | 내용 | 주소 |
 |---|---|---|
 | [`a-thought/`](a-thought/) | 어떤 문장 / A Thought — 개인정보처리방침·지원 (한·영·일) | https://softseed-office.github.io/public/a-thought/ |
-| [`aomo/`](aomo/) | AOMO — 이용약관·개인정보처리방침 (한) | https://softseed-office.github.io/public/aomo/ |
+| [`aomo/`](aomo/) | AOMO — 이용약관·개인정보처리방침 (한·영) | https://softseed-office.github.io/public/aomo/ |
 
 - `main` 에 머지하면 바로 배포된다. `.nojekyll` 로 Jekyll 처리를 끈다.
 - 앱이 주소를 코드에 갖고 있다 — 폴더·파일 이름을 바꾸지 않는다.
