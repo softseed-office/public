@@ -50,11 +50,20 @@
   <ul>
     <li><strong>Usage statistics</strong> (Google Firebase Analytics): records of how you use the App, such as screens viewed and features used, an app instance ID, and device model, OS version, and country. Used to improve the service and understand how it is used; deleted automatically after the retention period set in Firebase.</li>
     <li><strong>Error information</strong> (Google Firebase Crashlytics): where the App crashed or failed to save and its state at the time, device information, and an installation identifier. Used to fix errors; deleted 90 days after collection.</li>
+    <li><strong>Device verification</strong> (Google Firebase App Check): a verification token used to confirm that requests to our servers come from a genuine installation of AOMO. To issue it, Google Play Integrity (Android) or Apple App Attest (iOS) checks the integrity of your device and the App. Used only to prevent abuse and not stored on our servers.</li>
   </ul>
   <p>Usage statistics and error information never include your photos or videos, your archive, or face analysis results.</p>
 
+  <h3>Contact support</h3>
+  <ul>
+    <li><strong>What</strong>: inquiry type, your message, a reply email address (if you enter one), App version and build number, and device model</li>
+    <li><strong>Why</strong>: to review and reply to your inquiry, and to fix errors</li>
+    <li><strong>How</strong>: inquiries sent from <strong>Settings → Customer Support</strong> in the App are not stored on our servers; they are forwarded directly to a channel in our team's work messenger (Slack). No other information that could identify you, such as your account identifier, is sent with them.</li>
+    <li><strong>How long</strong>: deleted without delay once your inquiry is answered and resolved</li>
+  </ul>
+
   <h3>Email inquiries</h3>
-  <p>If you contact us from the App, we receive your email address, your message, and the App version, device model, and OS version that are added to the email automatically. We use them only to reply, and delete them without delay once your inquiry is resolved.</p>
+  <p>If you email us directly at the address in section 11, we receive the email address you send from and the content of your email. We use them only to reply, and delete them without delay once your inquiry is resolved.</p>
 
   <h2>2. Information stored only on your device</h2>
   <p>The following information is stored only on your device. We cannot see it.</p>
@@ -88,18 +97,27 @@
   <h2>6. Sharing, processors, and international transfers</h2>
   <p>We do not share your personal information with third parties. To run the service, we entrust processing as follows, which involves a transfer of personal information outside Korea.</p>
   <ul>
-    <li>Processor and recipient: Google LLC (Google Firebase — Authentication, Cloud Firestore, Cloud Functions, Cloud Storage, Analytics, Crashlytics, Remote Config)</li>
-    <li>Purpose: account authentication, storing account and profile information, and analyzing usage statistics and errors</li>
+    <li>Processor and recipient: Google LLC (Google Firebase — Authentication, Cloud Firestore, Cloud Functions, Cloud Storage, Analytics, Crashlytics, Remote Config, App Check)</li>
+    <li>Purpose: account authentication, storing account and profile information, analyzing usage statistics and errors, and verifying App requests</li>
     <li>Countries: Korea, the United States, and other countries where Google operates data centers</li>
     <li>When and how: sent encrypted over the internet while you use the App</li>
     <li>Data and retention: the account and sign-in, profile, device and usage, and automatically collected information in section 1</li>
     <li>How to refuse: delete your account and then delete the App. Features that require sign-in and stored account information will no longer be available.</li>
+  </ul>
+  <ul>
+    <li>Processor and recipient: Slack Technologies, LLC (Slack)</li>
+    <li>Purpose: forwarding and keeping customer support inquiries</li>
+    <li>Countries: the United States and other countries where Slack operates data centers</li>
+    <li>When and how: sent encrypted over the internet when you send an inquiry</li>
+    <li>Data and retention: the contact support information in section 1</li>
+    <li>How to refuse: instead of the in-app form, you can contact us at the email address in section 11.</li>
   </ul>
   <p>Google or Apple, whichever you choose, handles account authentication during sign-in under its own privacy policy. The App does not use ad SDKs, personalized ads, or tracking across other companies' apps and websites.</p>
 
   <h2>7. Deletion</h2>
   <ul>
     <li>When you use <strong>Settings → Delete account</strong>, your account, profile, nickname, and device and usage information are deleted from our servers without delay.</li>
+    <li>Customer support inquiries are deleted from the Slack channel without delay once they are answered and resolved.</li>
     <li>Information stored only on your device is deleted when you delete the App.</li>
     <li>Usage statistics and error information are not linked to your account and are deleted automatically after the periods in section 1.</li>
     <li>Information we are required by law to keep is stored separately for the required period and then destroyed.</li>
@@ -125,7 +143,7 @@
   <p>If this policy changes, we will post the changes and the effective date on this page and in the App's announcements at least 7 days in advance (30 days for changes that are unfavorable to you). If the App starts handling new information, we will update this page before the App update.</p>
   <p>This English version is provided for convenience. If it differs from the Korean version, the Korean version prevails.</p>
 
-  <p class="meta">Effective: October 15, 2026</p>
+  <p class="meta">Effective: October 16, 2026</p>
 
   <footer>
     <a href="terms-en.html">Terms of Service</a> · AOMO · SOFTSEED Inc.
