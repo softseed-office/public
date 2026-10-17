@@ -1,0 +1,128 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="robots" content="noindex">
+  <title>Press Kit · A Thought</title>
+  <link rel="stylesheet" href="style.css">
+  <style>
+    main { max-width: 960px; }
+    .facts { display: grid; grid-template-columns: max-content 1fr; gap: 4px 20px; margin: 0; }
+    .facts dt { color: var(--secondary); }
+    .facts dd { margin: 0; }
+    .tabs { display: flex; gap: 8px; margin: 12px 0 16px; }
+    .tabs label { cursor: pointer; padding: 4px 14px; border: 1px solid var(--border); border-radius: 999px; font-size: 14px; background: #fff; }
+    input[name=lang] { position: absolute; opacity: 0; pointer-events: none; }
+    .panel { display: none; }
+    #t-en:checked ~ .p-en, #t-ko:checked ~ .p-ko, #t-ja:checked ~ .p-ja { display: block; }
+    #t-en:checked ~ .tabs [for=t-en], #t-ko:checked ~ .tabs [for=t-ko], #t-ja:checked ~ .tabs [for=t-ja] { background: var(--ink); color: #fff; border-color: var(--ink); }
+    #t-en:focus-visible ~ .tabs [for=t-en], #t-ko:focus-visible ~ .tabs [for=t-ko], #t-ja:focus-visible ~ .tabs [for=t-ja] { outline: 2px solid var(--accent); outline-offset: 2px; }
+    .shots { display: grid; grid-template-columns: repeat(auto-fill, minmax(120px, 1fr)); gap: 12px; }
+    .creative { display: grid; grid-template-columns: repeat(auto-fit, minmax(280px, 1fr)); gap: 12px; }
+    .shots img, .creative img { display: block; width: 100%; height: auto; border-radius: 12px; border: 1px solid var(--border); }
+    .downloads li { margin: 2px 0; }
+  </style>
+</head>
+<body>
+<main>
+  <header>
+    <img src="icon.png" alt="">
+    <div>
+      <p class="app-name">Think sideways.</p>
+      <h1>A Thought Press Kit</h1>
+    </div>
+  </header>
+
+  <div class="card">
+    <p><strong>A one-minute daily writing practice for thinking sideways.</strong><br>
+      Launching November 10, 2026 on the App Store and Google Play — free, in English, Korean and Japanese.</p>
+  </div>
+
+  <h2>About</h2>
+  <p>Each day starts from one ordinary sentence — “Bananas are long.” You write the first thought that comes to mind, and that thought becomes the next prompt. Keep going as long as you like, then save to see the path your mind took. There are no right answers and no scores: if a thought moved even a little, that’s enough.</p>
+  <ul>
+    <li><strong>This Week’s Thoughts</strong> — days when different sentences led to the same place, the words that keep returning, the thought that traveled farthest</li>
+    <li><strong>Meet Your Past Self</strong> — what you wrote the last time you met the same sentence</li>
+    <li><strong>A thought tree</strong> on the home screen that grows from soil to flowers as you write</li>
+    <li><strong>Thought Cloud, Brain Map and Mind Map</strong> — images made from the words you return to, saved or shared only when you choose</li>
+  </ul>
+  <p>Writing is personal. A Thought never requires an account or sign-in, and you can always choose to keep your entries only on your device.</p>
+
+  <h2>Facts</h2>
+  <dl class="facts">
+    <dt>Developer</dt><dd>softseed</dd>
+    <dt>Release date</dt><dd>November 10, 2026</dd>
+    <dt>Platforms</dt><dd>iPhone (iOS 18 or later), Android (8.0 or later)</dd>
+    <dt>Price</dt><dd>Free</dd>
+    <dt>Languages</dt><dd>English, Korean (어떤 문장), Japanese</dd>
+    <dt>Store links</dt><dd>Added here at launch</dd>
+    <dt>Contact</dt><dd><a href="mailto:ekkim@office.softseed.co.kr?subject=%5BA%20Thought%5D%20Press">ekkim@office.softseed.co.kr</a></dd>
+  </dl>
+
+  <h2>Screenshots</h2>
+  <p>Tap an image for the full-size PNG (1206 × 2622 screenshots, 3840 × 1646 headers, 2880 × 1920 search results).</p>
+  <input type="radio" name="lang" id="t-en" checked>
+  <input type="radio" name="lang" id="t-ko">
+  <input type="radio" name="lang" id="t-ja">
+  <div class="tabs"><label for="t-en">English</label> <label for="t-ko">한국어</label> <label for="t-ja">日本語</label></div>
+  <div class="panel p-en">
+    <div class="shots">
+      <a href="press/screenshots/en-1-start.png"><img src="press/preview/en-1-start.jpg" alt="A one-minute thought walk" width="480" height="1043" loading="lazy" lang="en"></a>
+      <a href="press/screenshots/en-2-home.png"><img src="press/preview/en-2-home.jpg" alt="Today&#x27;s sentence" width="480" height="1043" loading="lazy" lang="en"></a>
+      <a href="press/screenshots/en-3-writing.png"><img src="press/preview/en-3-writing.jpg" alt="Then keep going" width="480" height="1043" loading="lazy" lang="en"></a>
+      <a href="press/screenshots/en-4-flow.png"><img src="press/preview/en-4-flow.jpg" alt="See where your mind went" width="480" height="1043" loading="lazy" lang="en"></a>
+      <a href="press/screenshots/en-5-stats.png"><img src="press/preview/en-5-stats.jpg" alt="This week&#x27;s thoughts" width="480" height="1043" loading="lazy" lang="en"></a>
+      <a href="press/screenshots/en-6-calendar.png"><img src="press/preview/en-6-calendar.jpg" alt="Your thoughts, day by day" width="480" height="1043" loading="lazy" lang="en"></a>
+      <a href="press/screenshots/en-7-brain.png"><img src="press/preview/en-7-brain.jpg" alt="What&#x27;s on my mind" width="480" height="1043" loading="lazy" lang="en"></a>
+    </div>
+    <h3>Header (21:9) and search result (3:2)</h3>
+    <div class="creative">
+      <a href="press/creative/header-en.png"><img src="press/preview/header-en.jpg" alt="Header, en" width="1200" height="514" loading="lazy"></a>
+      <a href="press/creative/search-en.png"><img src="press/preview/search-en.jpg" alt="Search result, en" width="1200" height="800" loading="lazy"></a>
+    </div>
+  </div>
+  <div class="panel p-ko">
+    <div class="shots">
+      <a href="press/screenshots/ko-1-start.png"><img src="press/preview/ko-1-start.jpg" alt="하루 1분, 생각 산책" width="480" height="1043" loading="lazy" lang="ko"></a>
+      <a href="press/screenshots/ko-2-home.png"><img src="press/preview/ko-2-home.jpg" alt="오늘의 한 문장" width="480" height="1043" loading="lazy" lang="ko"></a>
+      <a href="press/screenshots/ko-3-writing.png"><img src="press/preview/ko-3-writing.jpg" alt="이어서, 한 번 더" width="480" height="1043" loading="lazy" lang="ko"></a>
+      <a href="press/screenshots/ko-4-flow.png"><img src="press/preview/ko-4-flow.jpg" alt="생각이 흘러간 길" width="480" height="1043" loading="lazy" lang="ko"></a>
+      <a href="press/screenshots/ko-5-stats.png"><img src="press/preview/ko-5-stats.jpg" alt="이번 주의 생각" width="480" height="1043" loading="lazy" lang="ko"></a>
+      <a href="press/screenshots/ko-6-calendar.png"><img src="press/preview/ko-6-calendar.jpg" alt="쌓여 가는 나의 생각" width="480" height="1043" loading="lazy" lang="ko"></a>
+      <a href="press/screenshots/ko-7-brain.png"><img src="press/preview/ko-7-brain.jpg" alt="요즘 나의 뇌구조" width="480" height="1043" loading="lazy" lang="ko"></a>
+    </div>
+    <h3>Header (21:9) and search result (3:2)</h3>
+    <div class="creative">
+      <a href="press/creative/header-ko.png"><img src="press/preview/header-ko.jpg" alt="Header, ko" width="1200" height="514" loading="lazy"></a>
+      <a href="press/creative/search-ko.png"><img src="press/preview/search-ko.jpg" alt="Search result, ko" width="1200" height="800" loading="lazy"></a>
+    </div>
+  </div>
+  <div class="panel p-ja">
+    <div class="shots">
+      <a href="press/screenshots/ja-1-start.png"><img src="press/preview/ja-1-start.jpg" alt="1日1分、考えのさんぽ" width="480" height="1043" loading="lazy" lang="ja"></a>
+      <a href="press/screenshots/ja-2-home.png"><img src="press/preview/ja-2-home.jpg" alt="今日の一文" width="480" height="1043" loading="lazy" lang="ja"></a>
+      <a href="press/screenshots/ja-3-writing.png"><img src="press/preview/ja-3-writing.jpg" alt="続けて、もうひとつ" width="480" height="1043" loading="lazy" lang="ja"></a>
+      <a href="press/screenshots/ja-4-flow.png"><img src="press/preview/ja-4-flow.jpg" alt="考えがたどった道" width="480" height="1043" loading="lazy" lang="ja"></a>
+      <a href="press/screenshots/ja-5-stats.png"><img src="press/preview/ja-5-stats.jpg" alt="今週の考え" width="480" height="1043" loading="lazy" lang="ja"></a>
+      <a href="press/screenshots/ja-6-calendar.png"><img src="press/preview/ja-6-calendar.jpg" alt="たまっていく考え" width="480" height="1043" loading="lazy" lang="ja"></a>
+      <a href="press/screenshots/ja-7-brain.png"><img src="press/preview/ja-7-brain.jpg" alt="最近のわたしの頭の中" width="480" height="1043" loading="lazy" lang="ja"></a>
+    </div>
+    <h3>Header (21:9) and search result (3:2)</h3>
+    <div class="creative">
+      <a href="press/creative/header-ja.png"><img src="press/preview/header-ja.jpg" alt="Header, ja" width="1200" height="514" loading="lazy"></a>
+      <a href="press/creative/search-ja.png"><img src="press/preview/search-ja.jpg" alt="Search result, ja" width="1200" height="800" loading="lazy"></a>
+    </div>
+  </div>
+
+  <h2>Downloads</h2>
+  <ul class="downloads">
+    <li><a href="press/icon-1024.png">App icon (1024 × 1024 PNG)</a></li>
+  </ul>
+
+  <footer>
+    <a href="support-en.html">Support</a> · <a href="privacy-en.html">Privacy Policy</a> · A Thought · softseed
+  </footer>
+</main>
+</body>
+</html>
