@@ -4,6 +4,7 @@ GitHub Pages 로 내보내는 정적 페이지. 앱과 App Store·Play 가 읽�
 
 | 폴더 | 내용 | 주소 |
 |---|---|---|
+| [`index.html`](index.html) | 회사 앱 소개 — 인스타그램 프로필 링크용 | https://softseed-office.github.io/public/ |
 | [`a-thought/`](a-thought/) | 어떤 문장 / A Thought — 개인정보처리방침·지원 (한·영·일) | https://softseed-office.github.io/public/a-thought/ |
 | [`aomo/`](aomo/) | AOMO — 이용약관·개인정보처리방침 (한·영) | https://softseed-office.github.io/public/aomo/ |
 

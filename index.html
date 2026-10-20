@@ -1,0 +1,137 @@
+<!doctype html>
+<html lang="ko">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>softseed · 앱</title>
+  <meta name="description" content="softseed가 만드는 앱 — 어떤 문장, AOMO">
+  <meta property="og:title" content="softseed가 만드는 앱">
+  <meta property="og:description" content="어떤 문장 · AOMO">
+  <meta property="og:type" content="website">
+  <style>
+    /* 인스타그램 프로필 링크용 회사 앱 소개 페이지 — 외부 의존 없음 */
+    :root {
+      --ink: #1f2633;
+      --secondary: #616978;
+      --tertiary: #8c94a1;
+      --background: #f7f7fa;
+      --surface: #ffffff;
+      --border: #e3e6eb;
+      --chip: #eef1f5;
+      --soon: #c4572c;
+      --soon-bg: #fdeee6;
+    }
+    @media (prefers-color-scheme: dark) {
+      :root {
+        --ink: #eef0f4;
+        --secondary: #a9b0bc;
+        --tertiary: #7c8492;
+        --background: #121418;
+        --surface: #1b1e24;
+        --border: #2b2f37;
+        --chip: #262a32;
+        --soon: #ff9a6b;
+        --soon-bg: #3a2419;
+      }
+    }
+    * { box-sizing: border-box; }
+    body {
+      margin: 0;
+      background: var(--background);
+      color: var(--ink);
+      font-family: -apple-system, BlinkMacSystemFont, "Apple SD Gothic Neo", "Pretendard", "Segoe UI", sans-serif;
+      font-size: 16px;
+      line-height: 1.6;
+      word-break: keep-all;
+    }
+    main { max-width: 520px; margin: 0 auto; padding: 56px 16px 48px; }
+    .brand { text-align: center; margin-bottom: 32px; }
+    .brand h1 { font-size: 30px; letter-spacing: -0.02em; margin: 0; }
+    .brand p { color: var(--secondary); margin: 6px 0 0; }
+    .app {
+      background: var(--surface);
+      border: 1px solid var(--border);
+      border-radius: 20px;
+      padding: 20px;
+      margin-bottom: 16px;
+    }
+    .app-head { display: flex; align-items: center; gap: 14px; }
+    .app-head img { width: 64px; height: 64px; border-radius: 15px; border: 1px solid var(--border); flex: none; }
+    .app-head h2 { font-size: 20px; margin: 0; line-height: 1.3; }
+    .app-head .tagline { color: var(--secondary); font-size: 15px; margin: 2px 0 0; }
+    .app .desc { margin: 14px 0 0; }
+    .status {
+      display: inline-block;
+      margin-top: 14px;
+      padding: 4px 12px;
+      border-radius: 999px;
+      font-size: 14px;
+      font-weight: 600;
+      color: var(--soon);
+      background: var(--soon-bg);
+    }
+    /* 출시 전 앱: 회색 반투명 덮개 */
+    .app.soon { position: relative; overflow: hidden; }
+    .soon-cover {
+      position: absolute;
+      inset: 0;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      background: rgba(120, 126, 138, 0.55);
+      -webkit-backdrop-filter: blur(1.5px);
+      backdrop-filter: blur(1.5px);
+      pointer-events: none;
+    }
+    .soon-cover span {
+      color: #fff;
+      font-size: 22px;
+      font-weight: 700;
+      letter-spacing: 0.04em;
+      padding: 8px 22px;
+      border: 2px solid #fff;
+      border-radius: 999px;
+      background: rgba(31, 38, 51, 0.35);
+    }
+    footer { text-align: center; margin-top: 36px; color: var(--tertiary); font-size: 14px; }
+    footer a { color: var(--secondary); }
+  </style>
+</head>
+<body>
+<main>
+  <header class="brand">
+    <h1>softseed</h1>
+    <p>softseed가 만드는 앱</p>
+  </header>
+
+  <section class="app">
+    <div class="app-head">
+      <img src="a-thought/icon.png" alt="">
+      <div>
+        <h2>어떤 문장</h2>
+        <p class="tagline">하루 1분, 다른 생각을 해보는 연습.</p>
+      </div>
+    </div>
+    <p class="desc">매일 평범한 문장 하나에서 시작해요. 처음 떠오른 생각을 적으면 그 생각이 다음 문장이 돼요. 정답도 점수도 없어요. AI가 다 써 주는 시대에, 하루 1분만큼은 내 생각을 끝까지 따라가 봐요.</p>
+    <span class="status">2026년 11월 10일 출시 · iPhone · Android</span>
+  </section>
+
+  <section class="app soon">
+    <div class="app-head">
+      <img src="aomo/icon.png" alt="">
+      <div>
+        <h2>AOMO</h2>
+        <p class="tagline">덕질을 위한 사진 아카이브.</p>
+      </div>
+    </div>
+    <p class="desc">최애 사진을 컬렉션과 태그로 정리해 두고 언제든 다시 꺼내 봐요. 사진 원본은 서버에 올리지 않아요.</p>
+    <div class="soon-cover" aria-hidden="true"><span>Coming Soon</span></div>
+  </section>
+
+  <footer>
+    문의 <a href="mailto:softseed@office.softseed.co.kr">softseed@office.softseed.co.kr</a><br>
+    © SOFTSEED Inc.
+  </footer>
+</main>
+</body>
+</html>
