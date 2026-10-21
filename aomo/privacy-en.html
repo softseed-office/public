@@ -18,7 +18,7 @@
   </header>
 
   <div class="card">
-    <p><strong>Your photos, videos, and face analysis results are never sent to our servers.</strong> Your archive (collections, tags, memos, bookmarks) and face analysis results are stored only on your device. Our servers store only what is needed for sign-in and your profile.</p>
+    <p><strong>Your photos, videos, and face analysis results are never sent to our servers.</strong> Your archive (collections, tags, memos, bookmarks) is stored on your device, and a backup copy is stored on our servers <strong>only if you agree to server backup</strong>. Face analysis results are stored only on your device. Otherwise, our servers store only what is needed for sign-in and your profile.</p>
   </div>
 
   <p>SOFTSEED Inc. ("we") processes the personal information of users of AOMO (the "App") in accordance with the Personal Information Protection Act of Korea and other applicable laws. This policy explains what information we process, why, and for how long.</p>
@@ -62,17 +62,26 @@
     <li><strong>How long</strong>: deleted without delay once your inquiry is answered and resolved</li>
   </ul>
 
+  <h3>Server backup (optional)</h3>
+  <ul>
+    <li><strong>Data</strong>: your archive (collection names, aliases, memos, and tags; bookmark addresses, titles, summaries, and preview image addresses; creation and edit times), information used to find your photos and videos again (their photo library identifiers, type, width and height, duration, capture time, and original file name, size, and format), backup information (account identifier; backup time; numbers of collections, photos, and bookmarks; app build number; device platform), and the time you agreed to server backup, the version of the notice you agreed to, and your auto backup setting</li>
+    <li><strong>Purpose</strong>: restoring your archive after you reinstall the App or switch devices</li>
+    <li><strong>How</strong>: processed only if you agree to server backup. Original photos and videos, face analysis results, recent searches, and your app lock passcode are never uploaded. With auto backup on, the App backs up automatically when your archive changes; you can turn auto backup off or back up manually in <strong>Settings → Data Backup</strong>.</li>
+    <li><strong>How long</strong>: until you delete your server backup (withdrawing consent) or delete your account. Besides the latest backup, we keep one copy made once a day. If you choose "Start fresh" instead of restoring on another device, we keep the previous backup for 30 days and then delete it automatically.</li>
+    <li><strong>Your choice</strong>: you do not have to agree. If you don't, only server backup and restore are unavailable; all other features remain available.</li>
+  </ul>
+
   <h3>Email inquiries</h3>
   <p>If you email us directly at the address in section 11, we receive the email address you send from and the content of your email. We use them only to reply, and delete them without delay once your inquiry is resolved.</p>
 
-  <h2>2. Information stored only on your device</h2>
-  <p>The following information is stored only on your device. We cannot see it.</p>
+  <h2>2. Information stored on your device</h2>
+  <p>The following information is stored on your device. We cannot see it. If you agree to server backup, only the "Server backup" data in section 1 is backed up to our servers.</p>
   <ul>
     <li>Your archive: collections, tags, memos, bookmarks (address, title, summary, and preview image address), and recent searches</li>
     <li>The identifiers of the photos and videos in your photo library, their file names, capture times, sizes, and durations, and preview images (also used by the Home Screen widget)</li>
     <li>Your app lock passcode and notification settings</li>
   </ul>
-  <p>Original photos and videos are never copied into the App or sent to a server. If device backup is turned on (iCloud Backup or computer backups on iPhone, Google backup on Android), this information may be included in your backup, which is governed by Apple or Google and your backup settings.</p>
+  <p>Original photos and videos are never copied into the App or sent to a server. Your archive is kept out of device backups (iCloud Backup or computer backups on iPhone, Google backup on Android); after reinstalling the App or switching devices, it can be restored only from server backup. Other information (preview images, notification settings, and so on) may be included in your device backup depending on your backup settings, which are governed by Apple or Google and your settings.</p>
 
   <h2>3. Face information (biometric data)</h2>
   <p>People search extracts facial features from your photos and groups photos of the same person. Facial feature information is sensitive information (biometric data) under the Personal Information Protection Act of Korea, so we process it only with your <strong>separate consent</strong>, given apart from other information.</p>
@@ -98,10 +107,10 @@
   <p>We do not share your personal information with third parties. To run the service, we entrust processing as follows, which involves a transfer of personal information outside Korea.</p>
   <ul>
     <li>Processor and recipient: Google LLC (Google Firebase — Authentication, Cloud Firestore, Cloud Functions, Cloud Storage, Analytics, Crashlytics, Remote Config, App Check)</li>
-    <li>Purpose: account authentication, storing account and profile information, analyzing usage statistics and errors, and verifying App requests</li>
-    <li>Countries: Korea, the United States, and other countries where Google operates data centers</li>
+    <li>Purpose: account authentication, storing account and profile information, storing server backup files (if you agree), analyzing usage statistics and errors, and verifying App requests</li>
+    <li>Countries: Korea, the United States, and other countries where Google operates data centers (account and profile information and server backups are stored in the Seoul, Korea region)</li>
     <li>When and how: sent encrypted over the internet while you use the App</li>
-    <li>Data and retention: the account and sign-in, profile, device and usage, and automatically collected information in section 1</li>
+    <li>Data and retention: the account and sign-in, profile, device and usage, server backup (if you agree), and automatically collected information in section 1</li>
     <li>How to refuse: delete your account and then delete the App. Features that require sign-in and stored account information will no longer be available.</li>
   </ul>
   <ul>
@@ -116,15 +125,17 @@
 
   <h2>7. Deletion</h2>
   <ul>
-    <li>When you use <strong>Settings → Delete account</strong>, your account, profile, nickname, and device and usage information are deleted from our servers without delay.</li>
+    <li>When you use <strong>Settings → Delete account</strong>, your account, profile, nickname, device and usage information, and server backups are deleted from our servers without delay.</li>
+    <li>When you use <strong>Settings → Data Backup → Delete Server Backup</strong>, your server backup and all its copies are deleted without delay and your consent to server backup is withdrawn. Turning off auto backup alone keeps the backups already stored.</li>
+    <li>A previous backup kept when you choose "Start fresh" is deleted automatically after 30 days.</li>
     <li>Customer support inquiries are deleted from the Slack channel without delay once they are answered and resolved.</li>
-    <li>Information stored only on your device is deleted when you delete the App.</li>
+    <li>Information stored on your device is deleted when you delete the App.</li>
     <li>Usage statistics and error information are not linked to your account and are deleted automatically after the periods in section 1.</li>
     <li>Information we are required by law to keep is stored separately for the required period and then destroyed.</li>
   </ul>
 
   <h2>8. Your rights</h2>
-  <p>You can ask at any time to access, correct, or delete your personal information, or to stop its processing, and you can withdraw your consent. You can edit your profile in the App, withdraw face information consent in Settings, and delete your account with Delete account. For any other request, contact us at the address below and we will handle it without delay.</p>
+  <p>You can ask at any time to access, correct, or delete your personal information, or to stop its processing, and you can withdraw your consent. You can edit your profile in the App, withdraw face information consent and server backup consent in Settings, and delete your account with Delete account. For any other request, contact us at the address below and we will handle it without delay.</p>
 
   <h2>9. Children under 14</h2>
   <p>We do not knowingly collect personal information from children under 14. If we learn that we have, we will delete it without delay.</p>
@@ -143,7 +154,7 @@
   <p>If this policy changes, we will post the changes and the effective date on this page and in the App's announcements at least 7 days in advance (30 days for changes that are unfavorable to you). If the App starts handling new information, we will update this page before the App update.</p>
   <p>This English version is provided for convenience. If it differs from the Korean version, the Korean version prevails.</p>
 
-  <p class="meta">Effective: October 16, 2026</p>
+  <p class="meta">Effective: October 21, 2026</p>
 
   <footer>
     <a href="terms-en.html">Terms of Service</a> · AOMO · SOFTSEED Inc.
