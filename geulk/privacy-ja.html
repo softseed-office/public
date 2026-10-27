@@ -18,7 +18,7 @@
   </header>
 
   <div class="card">
-    <p><strong>録音した音はこの端末の外に出ません。</strong>Geulkには会員登録がなく、氏名やメールアドレスなどの情報を受け取りません。広告を表示するGoogleと、アプリの設定を配信するGoogle Firebaseが端末の情報を取り扱うことがあります。</p>
+    <p><strong>録音した音はこの端末の外に出ません。</strong>Geulkには会員登録がなく、氏名やメールアドレスなどの情報を受け取りません。広告を表示するGoogleと、アプリの設定を配信し、どのメニューや声がよく使われるかを集計するGoogle Firebaseが端末の情報を取り扱うことがあります。</p>
   </div>
 
   <p>SOFTSEED Inc.（以下「当社」）は、Geulk（以下「本アプリ」）の利用者の個人情報を、韓国の個人情報保護法その他の関係法令に従って取り扱います。このポリシーでは、どのような情報をなぜ、どのくらいの期間取り扱うかをお知らせします。</p>
@@ -44,11 +44,20 @@
     <li>Googleの取り扱い：<a href="https://policies.google.com/technologies/partner-sites?hl=ja">Googleのサービスを使用するサイトやアプリから収集した情報のGoogleによる使用</a>、<a href="https://policies.google.com/privacy?hl=ja">Googleプライバシーポリシー</a></li>
   </ul>
 
-  <h2>3. アプリの設定とコンテンツ（Google Firebase）</h2>
+  <h2>3. アプリの設定・コンテンツと利用統計（Google Firebase）</h2>
   <ul>
     <li>本アプリは、Google Firebase <strong>Remote Config</strong>で広告の間隔や声の設定などのアプリ設定を受け取り、<strong>Cloud Storage</strong>からメニューと効果音のファイルをダウンロードします。</li>
     <li><strong>取り扱う情報</strong>：FirebaseのインストールID（本アプリをインストールするたびに新しく作られる値）、IPアドレス、アプリのバージョン、端末・OSの情報</li>
     <li><strong>目的</strong>：アプリの設定とコンテンツの提供。利用者の識別や広告には使いません。</li>
+    <li><strong>利用統計（Google アナリティクス for Firebase）</strong>：どのメニューや声がよく使われるかを把握して本アプリを改善するため、利用統計を集計します。
+      <ul>
+        <li><strong>取り扱う情報</strong>：本アプリの利用記録（開いたメニュー、選んだ声、音を鳴らしたメニュー、共有・録音の保存の有無）、広告削除の購入の有無、アプリインスタンスID（本アプリをインストールするたびに新しく作られる値）、IPアドレスから推定したおおよその位置（国・都市レベル）、端末・OS・アプリの情報</li>
+        <li>録音した音、話した言葉、氏名やメールアドレスなどの情報は送信しません。広告識別子（iOS IDFA、Android広告ID）も使いません。</li>
+        <li>統計は広告に使いません。広告用の保存と広告のパーソナライズへの同意は常に拒否の状態にしています。</li>
+        <li>広告への同意が必要な地域（欧州経済領域・英国・スイスなど）では、利用統計を保存しません。</li>
+        <li><strong>保存期間</strong>：個々の記録はGoogle アナリティクスの保持設定（最長14か月）に従って自動的に削除され、その後は個人を識別できない合計の統計だけが残ります。</li>
+      </ul>
+    </li>
     <li>参考：<a href="https://firebase.google.com/support/privacy?hl=ja">Firebaseにおけるプライバシーとセキュリティ</a></li>
   </ul>
 
@@ -76,8 +85,8 @@
   <h2>7. 第三者提供・取り扱いの委託・国外移転</h2>
   <p>当社は利用者の個人情報を販売したり、第三者に提供したりしません。広告とアプリの運営のため、次のとおり取り扱いを委託しており、これに伴い情報が国外に移転されます。</p>
   <ul>
-    <li><strong>委託先（移転先）</strong>：Google LLC（Google AdMob、User Messaging Platform、Firebase Remote Config、Cloud Storage）</li>
-    <li><strong>委託する業務</strong>：広告の表示・測定、広告への同意の管理、アプリの設定とコンテンツの提供</li>
+    <li><strong>委託先（移転先）</strong>：Google LLC（Google AdMob、User Messaging Platform、Firebase Remote Config、Cloud Storage、Google アナリティクス for Firebase）</li>
+    <li><strong>委託する業務</strong>：広告の表示・測定、広告への同意の管理、アプリの設定とコンテンツの提供、アプリの利用統計</li>
     <li><strong>移転先の国</strong>：米国など、Googleがデータセンターを運営する国</li>
     <li><strong>移転の時期と方法</strong>：本アプリの利用時に、インターネットを通じて暗号化して送信</li>
     <li><strong>移転する項目・保存期間</strong>：2と3の情報。Googleの保存ポリシーに従った期間保存されます。</li>
@@ -108,9 +117,10 @@
 
   <h2>12. ポリシーの変更</h2>
   <p>このポリシーを変更する場合は、施行の7日前（利用者に不利な変更は30日前）から、このページで変更内容と施行日をお知らせします。本アプリが新しい情報を扱うようになる場合は、アプリのアップデートの前にこのページを更新します。</p>
+  <p>変更履歴：2026年10月27日告知 — 3にGoogle アナリティクスの利用統計を追加し、7の委託する業務に反映（2026年11月3日施行）</p>
   <p>この日本語版は便宜のために提供するものです。韓国語版と内容が異なる場合は、韓国語版が優先します。</p>
 
-  <p class="meta">施行日：2026年10月23日</p>
+  <p class="meta">施行日：2026年11月3日（以前のポリシー：2026年10月23日施行）</p>
 
   <footer>
     <a href="terms-ja.html">利用規約</a> · Geulk · SOFTSEED Inc.
