@@ -85,12 +85,20 @@
   <h2>7. Sharing, processors and international transfer</h2>
   <p>We do not sell your personal information or provide it to third parties. We use the following processor for ads and app operation, which involves transferring information outside Korea.</p>
   <ul>
-    <li><strong>Processor (recipient)</strong>: Google LLC (Google AdMob, User Messaging Platform, Firebase Remote Config, Cloud Storage, Google Analytics for Firebase)</li>
-    <li><strong>Tasks</strong>: showing and measuring ads, managing ad consent, delivering app settings and content, app usage statistics</li>
+    <li><strong>Processor (recipient)</strong>: Google LLC (Google AdMob, User Messaging Platform, Firebase Remote Config, Cloud Storage, Google Analytics for Firebase, Cloud Functions, App Check)</li>
+    <li><strong>Tasks</strong>: showing and measuring ads, managing ad consent, delivering app settings and content, app usage statistics, passing on support inquiries and checking app requests</li>
     <li><strong>Countries</strong>: the United States and other countries where Google operates data centers</li>
     <li><strong>When and how</strong>: sent encrypted over the internet while you use the App</li>
-    <li><strong>Items and retention</strong>: the information in sections 2 and 3, kept for the period set by Google's retention policies</li>
+    <li><strong>Items and retention</strong>: the information in sections 2 and 3 and the support inquiry in section 9, kept for the period set by Google's retention policies. Support inquiries are only passed on, not stored on Google's servers.</li>
     <li><strong>How to refuse</strong>: you can decline ad consent or turn off iOS tracking or the Android advertising ID. If you do not want any transfer, uninstall the App.</li>
+  </ul>
+  <ul>
+    <li><strong>Processor (recipient)</strong>: Slack Technologies, LLC (Slack)</li>
+    <li><strong>Tasks</strong>: receiving and keeping support inquiries</li>
+    <li><strong>Countries</strong>: the United States and other countries where Slack operates data centers</li>
+    <li><strong>When and how</strong>: sent encrypted over the internet when you send a support inquiry</li>
+    <li><strong>Items and retention</strong>: the support inquiry in section 9</li>
+    <li><strong>How to refuse</strong>: you can email the contact in section 11 instead of using Contact Us in the App.</li>
   </ul>
   <p>In-app purchases are handled by Apple or Google, under their own privacy policies.</p>
 
@@ -98,10 +106,19 @@
   <ul>
     <li>Information stored on your device is deleted when you delete it in the App or uninstall the App.</li>
     <li>Information processed by Google is deleted under Google's retention policies.</li>
+    <li>Support inquiries are deleted from the Slack channel without delay once answered and resolved.</li>
     <li>Email inquiries are deleted without delay once answered. Where the law requires us to keep them, we store them separately for that period and then delete them.</li>
   </ul>
 
-  <h2>9. Email inquiries</h2>
+  <h2>9. Support inquiries and email</h2>
+  <p>When you send an inquiry from <strong>Settings → 문의하기 (Contact Us)</strong> in the App, we process the following.</p>
+  <ul>
+    <li><strong>Items</strong>: title, message, your reply email address (if you enter one), app name, version and build number, platform and OS version, device model, and app language</li>
+    <li><strong>Purpose</strong>: reading and answering your inquiry, and fixing problems</li>
+    <li><strong>How it is handled</strong>: our server (Google Cloud Functions) does not store it and passes it straight to our team's work messenger (Slack) channel. Because several of our apps share that channel, the app name is sent with it. No other information that could identify you, such as the advertising identifier, is sent.</li>
+    <li><strong>Checking app requests</strong>: Google Firebase App Check confirms the inquiry comes from a genuinely installed Geulk app. For this, Apple App Attest (iOS) or Google Play Integrity (Android) checks the integrity of the device and app. It is used only to prevent abuse.</li>
+    <li><strong>Retention</strong>: deleted without delay once answered and resolved</li>
+  </ul>
   <p>If you email the contact in section 11, we receive your email address and the message. We use them only to reply and delete them without delay once your inquiry is resolved.</p>
 
   <h2>10. Your rights and children</h2>
@@ -119,9 +136,10 @@
   <p>If this policy changes, we will post the changes and the effective date on this page at least 7 days in advance (30 days for changes that are unfavorable to you). If the App starts handling new information, we will update this page before the App update.</p>
   <p>Change history: posted October 27, 2026 — added Google Analytics usage statistics to section 3 and to the tasks in section 7 (effective November 3, 2026)</p>
   <p>Change history: posted October 28, 2026 — added taps on the Remove Ads button and their results to the usage statistics in section 3 (effective November 4, 2026)</p>
+  <p>Change history: posted October 30, 2026 — added in-app support inquiries (passed to Slack, App Check) to section 9 and to sections 7 and 8 (effective November 6, 2026)</p>
   <p>This English version is provided for convenience. If it differs from the Korean version, the Korean version prevails.</p>
 
-  <p class="meta">Effective: November 4, 2026 (previous version effective October 23, 2026)</p>
+  <p class="meta">Effective: November 6, 2026 (previous version effective November 4, 2026)</p>
 
   <footer>
     <a href="terms-en.html">Terms of Service</a> · Geulk · SOFTSEED Inc.
