@@ -10,4 +10,4 @@ App Store·Play 제출과 앱 설정에서 여는 페이지. 정적 파일만 �
 
 - 앱이 새 정보를 다루게 되면 앱 업데이트 전에 개인정보처리방침부터 고친다.
 - `press/` 이미지는 앱 저장소 `docs/appstore/screenshots/<언어>/`·`creative/` 에서 복사한다. 스크린샷을 다시 찍으면 여기도 바꾼다 (`preview/` 는 `sips --resampleWidth 480`(스크린샷)·`1200`(크리에이티브) JPEG).
-- `press.html` 은 출시(2026-11-10)하면서 `noindex` 를 뺐다. Google Play 링크는 캠페인 `2611-press-ai` 꼬리표, App Store 링크는 제공자 토큰(`pt`)이 생기면 같은 캠페인으로 바꾼다 (writing 04 운영 '마케팅 링크').
+- `press.html` 은 출시(2026-11-10)하면서 `noindex` 를 뺐다. 두 스토어 링크 모두 캠페인 `2611-press-ai` 꼬리표를 단다 — App Store 는 제공자 토큰 `pt=72910800` 과 `ct`, Google Play 는 `referrer` UTM (writing 04 운영 '마케팅 링크').
