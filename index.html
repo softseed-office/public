@@ -20,6 +20,9 @@
       --chip: #eef1f5;
       --soon: #c4572c;
       --soon-bg: #fdeee6;
+      --store: #24507e;
+      --store-bg: #e7f1fc;
+      --store-border: #cfe2f6;
     }
     @media (prefers-color-scheme: dark) {
       :root {
@@ -32,6 +35,9 @@
         --chip: #262a32;
         --soon: #ff9a6b;
         --soon-bg: #3a2419;
+        --store: #a9cdf2;
+        --store-bg: #1c2836;
+        --store-border: #2c3d52;
       }
     }
     * { box-sizing: border-box; }
@@ -79,8 +85,9 @@
       align-items: center;
       padding: 10px 14px;
       border-radius: 14px;
-      background: var(--ink);
-      color: var(--background);
+      border: 1px solid var(--store-border);
+      background: var(--store-bg);
+      color: var(--store);
       text-decoration: none;
       line-height: 1.3;
     }
