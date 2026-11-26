@@ -8,6 +8,7 @@ GitHub Pages 로 내보내는 정적 페이지. 앱과 App Store·Play 가 읽�
 | [`a-thought/`](a-thought/) | 어떤 문장 / A Thought — 개인정보처리방침·지원 (한·영·일) | https://softseed-office.github.io/public/a-thought/ |
 | [`aomo/`](aomo/) | AOMO — 이용약관·개인정보처리방침 (한·영) | https://softseed-office.github.io/public/aomo/ |
 | [`geulk/`](geulk/) | 긁 — 이용약관·개인정보처리방침 (한·영·일) | https://softseed-office.github.io/public/geulk/privacy.html |
+| [`piano-checker/`](piano-checker/) | 피아노 체커 / Piano Checker — 개인정보처리방침·지원 (한) | https://softseed-office.github.io/public/piano-checker/privacy.html |
 | [`spinningtop/`](spinningtop/) | 팽이치기 / Top Spinning — 이용약관·개인정보처리방침 (한·영·일) | https://softseed-office.github.io/public/spinningtop/privacy.html |
 
 - `main` 에 머지하면 바로 배포된다. `.nojekyll` 로 Jekyll 처리를 끈다.
